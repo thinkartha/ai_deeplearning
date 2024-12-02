@@ -24,3 +24,14 @@ KAFKA_SECURITY_PROTOCOL = "SSL"
 KAFKA_TIMEOUT = 1000
 WAIT_TIME = 5
 ```
+
+for Azure
+
+```
+Replace placeholders:
+<your-resource-name>: Your Azure OpenAI resource name.
+<your-api-key>: Your API key from the Azure portal.
+Ensure the model (e.g., gpt-4) is deployed in your Azure OpenAI Service.
+Use engine to specify the deployed model (e.g., gpt-4, gpt-3.5-turbo).
+```
+
