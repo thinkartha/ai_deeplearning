@@ -11,7 +11,7 @@ Replace "your-model-id" with the specific model ID from the list_foundation_mode
 
 
 For Kafka set following configuration
-
+```
 KAFKA_URI = "address:port"
 KAFKA_TOPIC_SOURCE = "source_topic"
 KAFKA_TOPIC_SINK = "sink_topic"
@@ -23,3 +23,4 @@ KAFKA_SSL_KEY = "service.key"
 KAFKA_SECURITY_PROTOCOL = "SSL"
 KAFKA_TIMEOUT = 1000
 WAIT_TIME = 5
+```
